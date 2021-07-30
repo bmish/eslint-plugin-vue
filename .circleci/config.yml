@@ -2,10 +2,10 @@ workflows:
   version: 2
   node-multi-build:
     jobs:
-      - node-v8
-      - node-v10
+      - eslint-v6
       - node-v12
       - node-v14
+      - node-v16
       - lint
 
 version: 2
@@ -32,9 +32,9 @@ jobs:
           name: Test
           command: npm test
 
-  node-v8:
+  eslint-v6:
     docker:
-      - image: node:8
+      - image: node:12
     steps:
       - run:
           name: Versions
@@ -43,17 +43,13 @@ jobs:
       - run:
           name: Install eslint@6
           command: |
-            npm install --save-exact eslint@6.8.0 @typescript-eslint/parser@3.10.1 typescript@4.0.8
+            npm install --save-exact eslint@6.8.0
       - run:
           name: Install dependencies
           command: npm install
       - run:
           name: Test
           command: npm test
-  node-v10:
-    <<: *node-base
-    docker:
-      - image: node:10
   node-v12:
     <<: *node-base
     docker:
@@ -62,6 +58,10 @@ jobs:
     <<: *node-base
     docker:
       - image: node:14
+  node-v16:
+    <<: *node-base
+    docker:
+      - image: node:16
 
   lint:
     docker:
