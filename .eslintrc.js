@@ -10,7 +10,12 @@ module.exports = {
     node: true,
     mocha: true
   },
-  extends: ['plugin:eslint-plugin/recommended', 'prettier'],
+  extends: [
+    'plugin:eslint-plugin/recommended',
+    'prettier',
+    'plugin:node-dependencies/recommended',
+    'plugin:jsonc/recommended-with-jsonc'
+  ],
   plugins: ['eslint-plugin', 'prettier'],
   rules: {
     'accessor-pairs': 2,
@@ -138,6 +143,12 @@ module.exports = {
         ],
 
         'eslint-plugin/fixer-return': 'off'
+      }
+    },
+    {
+      files: ['*.json'],
+      rules: {
+        'prettier/prettier': 'off'
       }
     }
   ]
