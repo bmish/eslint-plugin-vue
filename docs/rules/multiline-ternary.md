@@ -7,9 +7,13 @@ since: v9.7.0
 ---
 # vue/multiline-ternary
 
-> Enforce newlines between operands of ternary expressions in `<template>`
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> Enforce newlines between operands of ternary expressions in `<template>`
 
 This rule is the same rule as core [multiline-ternary] rule but it applies to the expressions in `<template>` and `<style>`.
 

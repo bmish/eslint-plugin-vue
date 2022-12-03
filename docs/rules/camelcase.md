@@ -7,6 +7,8 @@ since: v5.2.0
 ---
 # vue/camelcase
 
+<!-- end auto-generated rule header -->
+
 > Enforce camelcase naming convention in `<template>`
 
 This rule is the same rule as core [camelcase] rule but it applies to the expressions in `<template>`.

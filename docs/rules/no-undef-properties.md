@@ -7,6 +7,8 @@ since: v7.20.0
 ---
 # vue/no-undef-properties
 
+<!-- end auto-generated rule header -->
+
 > disallow undefined properties
 
 ## :book: Rule Details

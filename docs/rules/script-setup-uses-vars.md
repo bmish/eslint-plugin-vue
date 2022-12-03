@@ -7,6 +7,10 @@ since: v7.13.0
 ---
 # vue/script-setup-uses-vars
 
+❌ This rule is deprecated.
+
+<!-- end auto-generated rule header -->
+
 > prevent `<script setup>` variables used in `<template>` to be marked as unused
 
 - :warning: This rule was **deprecated**.

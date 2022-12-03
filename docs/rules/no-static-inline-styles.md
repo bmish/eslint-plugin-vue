@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-static-inline-styles
 
+<!-- end auto-generated rule header -->
+
 > disallow static inline `style` attributes
 
 ## :book: Rule Details

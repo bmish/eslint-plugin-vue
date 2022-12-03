@@ -7,6 +7,8 @@ since: v7.4.0
 ---
 # vue/no-restricted-call-after-await
 
+<!-- end auto-generated rule header -->
+
 > disallow asynchronously called restricted methods
 
 ## :book: Rule Details

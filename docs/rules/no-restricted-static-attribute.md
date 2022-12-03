@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-restricted-static-attribute
 
+<!-- end auto-generated rule header -->
+
 > disallow specific attribute
 
 ## :book: Rule Details

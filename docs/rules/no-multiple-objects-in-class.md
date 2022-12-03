@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-multiple-objects-in-class
 
+<!-- end auto-generated rule header -->
+
 > disallow to pass multiple objects into array to class
 
 ## :book: Rule Details

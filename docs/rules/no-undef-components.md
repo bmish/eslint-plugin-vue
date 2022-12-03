@@ -7,6 +7,8 @@ since: v8.4.0
 ---
 # vue/no-undef-components
 
+<!-- end auto-generated rule header -->
+
 > disallow use of undefined components in `<template>`
 
 This rule reports components that are used in the `<template>`, but that are not defined in the `<script setup>` or the Options API's `components` section.

@@ -7,6 +7,8 @@ since: v6.0.0
 ---
 # vue/no-empty-pattern
 
+<!-- end auto-generated rule header -->
+
 > Disallow empty destructuring patterns in `<template>`
 
 This rule is the same rule as core [no-empty-pattern] rule but it applies to the expressions in `<template>`.

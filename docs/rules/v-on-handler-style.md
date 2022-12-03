@@ -7,9 +7,11 @@ since: v9.7.0
 ---
 # vue/v-on-handler-style
 
-> enforce writing style for handlers in `v-on` directives
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+<!-- end auto-generated rule header -->
+
+> enforce writing style for handlers in `v-on` directives
 
 ## :book: Rule Details
 

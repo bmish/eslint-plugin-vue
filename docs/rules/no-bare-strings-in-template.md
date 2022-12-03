@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-bare-strings-in-template
 
+<!-- end auto-generated rule header -->
+
 > disallow the use of bare strings in `<template>`
 
 ## :book: Rule Details

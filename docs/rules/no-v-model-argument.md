@@ -7,9 +7,11 @@ since: v7.0.0
 ---
 # vue/no-v-model-argument
 
-> disallow adding an argument to `v-model` used in custom component
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/essential"`, `"plugin:vue/strongly-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow adding an argument to `v-model` used in custom component
 
 This rule checks whether `v-model` used on custom component do not have an argument.
 

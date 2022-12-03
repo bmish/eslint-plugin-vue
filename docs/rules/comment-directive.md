@@ -7,9 +7,11 @@ since: v4.1.0
 ---
 # vue/comment-directive
 
-> support comment-directives in `<template>`
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `base`, `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/base"`, `"plugin:vue/essential"`, `"plugin:vue/vue3-essential"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> support comment-directives in `<template>`
 
 Sole purpose of this rule is to provide `eslint-disable` functionality in the `<template>` and in the block level.
 It supports usage of the following comments:

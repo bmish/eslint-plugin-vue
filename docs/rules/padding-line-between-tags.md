@@ -7,9 +7,13 @@ since: v9.5.0
 ---
 # vue/padding-line-between-tags
 
-> require or disallow newlines between sibling tags in template
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> require or disallow newlines between sibling tags in template
 
 ## :book: Rule Details
 
@@ -25,7 +29,7 @@ This rule requires or disallows newlines between sibling HTML tags.
 
     <div>
     </div>
-    
+
     <div />
 
     <div />
@@ -149,9 +153,9 @@ A configuration is an object which has 3 properties; `blankLine`, `prev` and `ne
       <li />
       <li />
     </ul>
-    
+
     <div />
-    
+
     <div />
   </div>
 </template>

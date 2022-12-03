@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-sparse-arrays
 
+<!-- end auto-generated rule header -->
+
 > Disallow sparse arrays in `<template>`
 
 This rule is the same rule as core [no-sparse-arrays] rule but it applies to the expressions in `<template>`.

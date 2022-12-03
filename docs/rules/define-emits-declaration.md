@@ -7,6 +7,8 @@ since: v9.5.0
 ---
 # vue/define-emits-declaration
 
+<!-- end auto-generated rule header -->
+
 > enforce declaration style of `defineEmits`
 
 ## :book: Rule Details

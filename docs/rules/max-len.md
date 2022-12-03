@@ -7,6 +7,10 @@ since: v6.1.0
 ---
 # vue/max-len
 
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
+
+<!-- end auto-generated rule header -->
+
 > enforce a maximum line length in `.vue` files
 
 ## :book: Rule Details

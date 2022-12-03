@@ -7,6 +7,8 @@ since: v7.11.0
 ---
 # vue/no-this-in-before-route-enter
 
+<!-- end auto-generated rule header -->
+
 > disallow `this` usage in a `beforeRouteEnter` method
 
 ## :book: Rule Details

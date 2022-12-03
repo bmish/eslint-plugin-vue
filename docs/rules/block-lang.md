@@ -7,6 +7,8 @@ since: v7.15.0
 ---
 # vue/block-lang
 
+<!-- end auto-generated rule header -->
+
 > disallow use other than available `lang`
 
 ## :book: Rule Details

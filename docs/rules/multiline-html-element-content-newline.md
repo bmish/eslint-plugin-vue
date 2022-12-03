@@ -7,10 +7,13 @@ since: v5.0.0
 ---
 # vue/multiline-html-element-content-newline
 
-> require a line break before and after the contents of a multiline element
+⚠️🚫 This rule *warns* in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): ✅ `recommended`, `strongly-recommended`, `vue3-recommended`, `vue3-strongly-recommended`. This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> require a line break before and after the contents of a multiline element
 
 ## :book: Rule Details
 
@@ -60,10 +63,10 @@ This rule enforces a line break before and after the contents of a multiline ele
   <div
     attr
   >multiline start tag</div>
-  
+
   <table><tr><td>multiline</td>
     <td>children</td></tr></table>
-  
+
   <div><!-- multiline
     comment --></div>
 
@@ -90,7 +93,7 @@ This rule enforces a line break before and after the contents of a multiline ele
     default `true`
 - `ignores` ... the configuration for element names to ignore line breaks style.
     default `["pre", "textarea", ...INLINE_ELEMENTS]`.
-- `allowEmptyLines` ... if `true`, it allows empty lines around content. If you want to disallow multiple empty lines, use [no-multiple-empty-lines] in combination.  
+- `allowEmptyLines` ... if `true`, it allows empty lines around content. If you want to disallow multiple empty lines, use [no-multiple-empty-lines] in combination.
     default `false`
 
 ::: info

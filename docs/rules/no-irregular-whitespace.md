@@ -7,6 +7,8 @@ since: v6.1.0
 ---
 # vue/no-irregular-whitespace
 
+<!-- end auto-generated rule header -->
+
 > disallow irregular whitespace in `.vue` files
 
 ## :book: Rule Details

@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-empty-component-block
 
+<!-- end auto-generated rule header -->
+
 > disallow the `<template>` `<script>` `<style>` block to be empty
 
 ## :book: Rule Details

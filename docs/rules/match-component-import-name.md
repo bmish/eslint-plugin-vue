@@ -7,6 +7,8 @@ since: v8.7.0
 ---
 # vue/match-component-import-name
 
+<!-- end auto-generated rule header -->
+
 > require the registered component name to match the imported component name
 
 ## :book: Rule Details

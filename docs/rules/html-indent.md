@@ -7,10 +7,13 @@ since: v3.14.0
 ---
 # vue/html-indent
 
-> enforce consistent indentation in `<template>`
+⚠️🚫 This rule *warns* in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): ✅ `recommended`, `strongly-recommended`, `vue3-recommended`, `vue3-strongly-recommended`. This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> enforce consistent indentation in `<template>`
 
 ## :book: Rule Details
 
@@ -78,7 +81,7 @@ This rule enforces a consistent indentation style in `<template>`. The default s
 - `type` (`number | "tab"`) ... The type of indentation. Default is `2`. If this is a number, it's the number of spaces for one indent. If this is `"tab"`, it uses one tab for one indent.
 - `attribute` (`integer`) ... The multiplier of indentation for attributes. Default is `1`.
 - `baseIndent` (`integer`) ... The multiplier of indentation for top-level statements. Default is `1`.
-- `closeBracket` (`integer | object`) ... The multiplier of indentation for right brackets. Default is `0`.  
+- `closeBracket` (`integer | object`) ... The multiplier of indentation for right brackets. Default is `0`.
   You can apply all of the following by setting a number value.
   - `closeBracket.startTag` (`integer`) ... The multiplier of indentation for right brackets of start tags (`<div>`). Default is `0`.
   - `closeBracket.endTag` (`integer`) ... The multiplier of indentation for right brackets of end tags (`</div>`). Default is `0`.

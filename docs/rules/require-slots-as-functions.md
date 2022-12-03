@@ -7,13 +7,15 @@ since: v7.0.0
 ---
 # vue/require-slots-as-functions
 
-> enforce properties of `$slots` to be used as a function
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/vue3-strongly-recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> enforce properties of `$slots` to be used as a function
 
 ## :book: Rule Details
 
-This rule enforces the properties of `$slots` to be used as a function.  
+This rule enforces the properties of `$slots` to be used as a function.
 `this.$slots.default` was an array of VNode in Vue.js 2.x, but changed to a function that returns an array of VNode in Vue.js 3.x.
 
 <eslint-code-block :rules="{'vue/require-slots-as-functions': ['error']}">

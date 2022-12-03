@@ -7,9 +7,11 @@ since: v3.6.0
 ---
 # vue/no-side-effects-in-computed-properties
 
-> disallow side effects in computed properties
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/essential"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow side effects in computed properties
 
 ## :book: Rule Details
 
@@ -88,7 +90,7 @@ import {computed} from 'vue'
 export default {
   setup() {
     const foo = useFoo()
-    
+
     const fullName = computed(() => {
       foo.firstName = 'lorem' // <- side effect
       return `${foo.firstName} ${foo.lastName}`

@@ -22,7 +22,6 @@ const fs = require('fs')
 const path = require('path')
 const rules = require('./lib/rules')
 const removedRules = require('../lib/removed-rules')
-const { getPresetIds, formatItems } = require('./lib/utils')
 
 const ROOT = path.resolve(__dirname, '../docs/rules')
 
@@ -81,80 +80,6 @@ class DocFile {
     return this
   }
 
-  updateHeader() {
-    const { ruleId, meta } = this.rule
-    const description = meta.docs
-      ? meta.docs.description
-      : this.content.match(/^description: (.*)$/m)[1]
-    const title = `# ${ruleId}\n\n> ${description}`
-    const notes = []
-
-    if (meta.removedInVersion) {
-      if (meta.replacedBy.length > 0) {
-        const replacedRules = meta.replacedBy.map(
-          (name) => `[vue/${name}](${name}.md) rule`
-        )
-        notes.push(
-          `- :no_entry_sign: This rule was **removed** in eslint-plugin-vue ${
-            meta.removedInVersion
-          } and replaced by ${formatItems(replacedRules)}.`
-        )
-      } else {
-        notes.push(
-          `- :no_entry_sign: This rule was **removed** in eslint-plugin-vue ${meta.removedInVersion}.`
-        )
-      }
-    } else if (meta.deprecated) {
-      if (meta.replacedBy) {
-        const replacedRules = meta.replacedBy.map(
-          (name) => `[vue/${name}](${name}.md) rule`
-        )
-        notes.push(
-          `- :warning: This rule was **deprecated** and replaced by ${formatItems(
-            replacedRules
-          )}.`
-        )
-      } else {
-        notes.push(`- :warning: This rule was **deprecated**.`)
-      }
-    } else if (meta.docs.categories) {
-      const presets = getPresetIds(meta.docs.categories).map(
-        (categoryId) => `\`"plugin:vue/${categoryId}"\``
-      )
-
-      notes.push(`- :gear: This rule is included in ${formatItems(presets)}.`)
-    }
-    if (meta.fixable) {
-      notes.push(
-        '- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.'
-      )
-    }
-    if (meta.hasSuggestions) {
-      notes.push(
-        '- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).'
-      )
-    }
-
-    if (!this.since) {
-      notes.unshift(
-        `- :exclamation: <badge text="This rule has not been released yet." vertical="middle" type="error"> ***This rule has not been released yet.*** </badge>`
-      )
-    }
-
-    // Add an empty line after notes.
-    if (notes.length > 0) {
-      notes.push('', '')
-    }
-
-    const headerPattern = /#.+\n+[^\n]*\n+(?:- .+\n)*\n*/
-    const header = `${title}\n\n${notes.join('\n')}`
-    this.content = headerPattern.test(this.content)
-      ? this.content.replace(headerPattern, header)
-      : `${header}${this.content.trim()}\n`
-
-    return this
-  }
-
   updateCodeBlocks() {
     const { meta } = this.rule
 
@@ -181,14 +106,13 @@ class DocFile {
   updateFooter() {
     const { name, meta } = this.rule
     const footerPattern = /## (?::mag: Implementation|:rocket: Version).+$/s
-    const footer = `${
+    const footer = `## :rocket: Version
+    ${
       this.since
-        ? `## :rocket: Version
+        ? `This rule was introduced in eslint-plugin-vue ${this.since}`
+        : `:exclamation: <badge text="This rule has not been released yet." vertical="middle" type="error"> ***This rule has not been released yet.*** </badge>`
+    }
 
-This rule was introduced in eslint-plugin-vue ${this.since}
-
-`
-        : ''
     }## :mag: Implementation
 
 - [Rule source](https://github.com/vuejs/eslint-plugin-vue/blob/master/lib/rules/${name}.js)
@@ -265,7 +189,6 @@ ${
 
 for (const rule of rules) {
   DocFile.read(rule)
-    .updateHeader()
     .updateFooter()
     .updateCodeBlocks()
     .updateFileIntro()
@@ -284,5 +207,5 @@ for (const { ruleName, replacedBy, removedInVersion } of removedRules) {
       removedInVersion
     }
   }
-  DocFile.read(rule).updateHeader().write()
+  DocFile.read(rule).write()
 }

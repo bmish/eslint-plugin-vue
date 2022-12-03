@@ -7,9 +7,13 @@ since: v8.7.0
 ---
 # vue/define-macros-order
 
-> enforce order of `defineEmits` and `defineProps` compiler macros
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> enforce order of `defineEmits` and `defineProps` compiler macros
 
 ## :book: Rule Details
 

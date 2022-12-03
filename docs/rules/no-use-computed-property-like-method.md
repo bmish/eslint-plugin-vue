@@ -7,9 +7,11 @@ since: v7.15.0
 ---
 # vue/no-use-computed-property-like-method
 
-> disallow use computed property like method
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/essential"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow use computed property like method
 
 ## :book: Rule Details
 

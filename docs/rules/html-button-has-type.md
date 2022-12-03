@@ -7,6 +7,8 @@ since: v7.6.0
 ---
 # vue/html-button-has-type
 
+<!-- end auto-generated rule header -->
+
 > disallow usage of button without an explicit type attribute
 
 Forgetting the type attribute on a button defaults it to being a submit type.

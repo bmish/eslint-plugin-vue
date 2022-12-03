@@ -7,9 +7,11 @@ since: v8.5.0
 ---
 # vue/prefer-true-attribute-shorthand
 
-> require shorthand form attribute when `v-bind` value is `true`
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> require shorthand form attribute when `v-bind` value is `true`
 
 ## :book: Rule Details
 

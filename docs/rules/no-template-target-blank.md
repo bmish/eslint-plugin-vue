@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-template-target-blank
 
+<!-- end auto-generated rule header -->
+
 > disallow target="_blank" attribute without rel="noopener noreferrer"
 
 ## :book: Rule Details

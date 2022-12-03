@@ -7,9 +7,11 @@ since: v8.4.0
 ---
 # vue/no-v-text-v-html-on-component
 
-> disallow v-text / v-html on component
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/essential"`, `"plugin:vue/vue3-essential"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow v-text / v-html on component
 
 ## :book: Rule Details
 

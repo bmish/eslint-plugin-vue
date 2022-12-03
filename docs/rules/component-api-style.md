@@ -7,6 +7,8 @@ since: v7.18.0
 ---
 # vue/component-api-style
 
+<!-- end auto-generated rule header -->
+
 > enforce component API style
 
 ## :book: Rule Details

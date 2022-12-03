@@ -7,10 +7,13 @@ since: v5.0.0
 ---
 # vue/singleline-html-element-content-newline
 
-> require a line break before and after the contents of a singleline element
+⚠️🚫 This rule *warns* in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): ✅ `recommended`, `strongly-recommended`, `vue3-recommended`, `vue3-strongly-recommended`. This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> require a line break before and after the contents of a singleline element
 
 ## :book: Rule Details
 
@@ -24,7 +27,7 @@ This rule enforces a line break before and after the contents of a singleline el
   <div attr>
     content
   </div>
-  
+
   <tr attr>
     <td>
       {{ data1 }}
@@ -33,16 +36,16 @@ This rule enforces a line break before and after the contents of a singleline el
       {{ data2 }}
     </td>
   </tr>
-  
+
   <div attr>
     <!-- comment -->
   </div>
-  
+
   <!-- ✗ BAD -->
   <div attr>content</div>
-  
+
   <tr attr><td>{{ data1 }}</td><td>{{ data2 }}</td></tr>
-  
+
   <div attr><!-- comment --></div>
 </template>
 ```
@@ -80,9 +83,9 @@ This rule enforces a line break before and after the contents of a singleline el
 <template>
   <!-- ✗ BAD -->
   <div attr>content</div>
-  
+
   <tr attr><td>{{ data1 }}</td><td>{{ data2 }}</td></tr>
-  
+
   <div attr><!-- comment --></div>
 </template>
 ```
@@ -97,7 +100,7 @@ This rule enforces a line break before and after the contents of a singleline el
 <template>
   <!-- ✗ BAD -->
   <div>content</div>
-  
+
   <tr><td>{{ data1 }}</td><td>{{ data2 }}</td></tr>
 
   <div><!-- comment --></div>

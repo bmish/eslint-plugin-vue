@@ -7,10 +7,13 @@ since: v7.0.0
 ---
 # vue/require-explicit-emits
 
-> require `emits` option with name triggered by `$emit()`
+⚠️ This rule *warns* in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in `"plugin:vue/vue3-strongly-recommended"` and `"plugin:vue/vue3-recommended"`.
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+
+<!-- end auto-generated rule header -->
+
+> require `emits` option with name triggered by `$emit()`
 
 ## :book: Rule Details
 

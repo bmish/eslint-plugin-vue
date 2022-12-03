@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-unused-properties
 
+<!-- end auto-generated rule header -->
+
 > disallow unused properties
 
 ## :book: Rule Details

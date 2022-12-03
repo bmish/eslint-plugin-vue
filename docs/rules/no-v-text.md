@@ -7,6 +7,8 @@ since: v7.17.0
 ---
 # vue/no-v-text
 
+<!-- end auto-generated rule header -->
+
 > disallow use of v-text
 
 ## :book: Rule Details

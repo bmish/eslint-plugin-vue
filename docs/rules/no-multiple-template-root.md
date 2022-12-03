@@ -7,9 +7,11 @@ since: v7.0.0
 ---
 # vue/no-multiple-template-root
 
-> disallow adding multiple root nodes to the template
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/essential"`, `"plugin:vue/strongly-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow adding multiple root nodes to the template
 
 ## :book: Rule Details
 

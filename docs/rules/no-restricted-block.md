@@ -7,6 +7,8 @@ since: v7.4.0
 ---
 # vue/no-restricted-block
 
+<!-- end auto-generated rule header -->
+
 > disallow specific block
 
 ## :book: Rule Details

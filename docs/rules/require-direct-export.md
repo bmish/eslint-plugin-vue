@@ -7,6 +7,8 @@ since: v5.2.0
 ---
 # vue/require-direct-export
 
+<!-- end auto-generated rule header -->
+
 > require the component to be directly exported
 
 ## :book: Rule Details

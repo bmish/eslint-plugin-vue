@@ -7,9 +7,11 @@ since: v3.9.0
 ---
 # vue/no-reserved-keys
 
-> disallow overwriting reserved keys
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/essential"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow overwriting reserved keys
 
 ## :book: Rule Details
 

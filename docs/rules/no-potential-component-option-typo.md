@@ -7,9 +7,11 @@ since: v7.0.0
 ---
 # vue/no-potential-component-option-typo
 
-> disallow a potential typo in your component property
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> disallow a potential typo in your component property
 
 ## :book: Rule Details
 

@@ -7,9 +7,11 @@ since: v7.3.0
 ---
 # vue/no-restricted-props
 
-> disallow specific props
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> disallow specific props
 
 ## :book: Rule Details
 

@@ -7,9 +7,11 @@ since: v7.0.0
 ---
 # vue/no-boolean-default
 
-> disallow boolean defaults
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+<!-- end auto-generated rule header -->
+
+> disallow boolean defaults
 
 The rule prevents Boolean props from having a default value.
 

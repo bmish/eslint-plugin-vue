@@ -7,15 +7,17 @@ since: v7.0.0
 ---
 # vue/no-v-for-template-key-on-child
 
-> disallow key of `<template v-for>` placed on child elements
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/vue3-strongly-recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow key of `<template v-for>` placed on child elements
 
 ## :book: Rule Details
 
 This rule reports the key of the `<template v-for>` placed on the child elements.
 
-In Vue.js 3.x, with the support for fragments, the `<template v-for>` key can be placed on the `<template>` tag.  
+In Vue.js 3.x, with the support for fragments, the `<template v-for>` key can be placed on the `<template>` tag.
 
 See [Migration Guide - `key` attribute > With `<template v-for>`](https://v3-migration.vuejs.org/breaking-changes/key-attribute.html#with-template-v-for) for more details.
 

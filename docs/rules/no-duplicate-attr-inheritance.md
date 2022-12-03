@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-duplicate-attr-inheritance
 
+<!-- end auto-generated rule header -->
+
 > enforce `inheritAttrs` to be set to `false` when using `v-bind="$attrs"`
 
 ## :book: Rule Details

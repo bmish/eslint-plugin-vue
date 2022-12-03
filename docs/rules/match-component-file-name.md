@@ -7,9 +7,11 @@ since: v5.2.0
 ---
 # vue/match-component-file-name
 
-> require component name property to match its file name
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> require component name property to match its file name
 
 This rule reports if a component `name` property does not match its file name.
 

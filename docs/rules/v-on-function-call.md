@@ -7,10 +7,15 @@ since: v5.2.0
 ---
 # vue/v-on-function-call
 
+❌ This rule is deprecated. It was replaced by [`vue/v-on-handler-style`](../../docs/rules/v-on-handler-style.md).
+
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
 > enforce or forbid parentheses after method calls without arguments in `v-on` directives
 
 - :warning: This rule was **deprecated** and replaced by [vue/v-on-handler-style](v-on-handler-style.md) rule.
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
 

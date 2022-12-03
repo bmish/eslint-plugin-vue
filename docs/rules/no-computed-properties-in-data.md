@@ -7,13 +7,15 @@ since: v7.20.0
 ---
 # vue/no-computed-properties-in-data
 
-> disallow accessing computed properties in `data`.
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`, `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/essential"`, `"plugin:vue/vue3-strongly-recommended"`, `"plugin:vue/strongly-recommended"`, `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow accessing computed properties in `data`.
 
 ## :book: Rule Details
 
-This rule disallow accessing computed properties in `data()`.  
+This rule disallow accessing computed properties in `data()`.
 The computed property cannot be accessed in `data()` because is before initialization.
 
 <eslint-code-block :rules="{'vue/no-computed-properties-in-data': ['error']}">

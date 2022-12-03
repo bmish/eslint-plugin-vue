@@ -7,6 +7,8 @@ since: v8.0.0
 ---
 # vue/no-loss-of-precision
 
+<!-- end auto-generated rule header -->
+
 > Disallow literal numbers that lose precision in `<template>`
 
 This rule is the same rule as core [no-loss-of-precision] rule but it applies to the expressions in `<template>`.

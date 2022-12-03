@@ -7,6 +7,8 @@ since: v7.5.0
 ---
 # vue/no-constant-condition
 
+<!-- end auto-generated rule header -->
+
 > Disallow constant expressions in conditions in `<template>`
 
 This rule is the same rule as core [no-constant-condition] rule but it applies to the expressions in `<template>`.

@@ -7,9 +7,13 @@ since: v5.2.0
 ---
 # vue/block-spacing
 
-> Disallow or enforce spaces inside of blocks after opening block and before closing block in `<template>`
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> Disallow or enforce spaces inside of blocks after opening block and before closing block in `<template>`
 
 This rule is the same rule as core [block-spacing] rule but it applies to the expressions in `<template>`.
 

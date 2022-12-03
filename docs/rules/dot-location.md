@@ -7,9 +7,13 @@ since: v6.0.0
 ---
 # vue/dot-location
 
-> Enforce consistent newlines before and after dots in `<template>`
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> Enforce consistent newlines before and after dots in `<template>`
 
 This rule is the same rule as core [dot-location] rule but it applies to the expressions in `<template>`.
 

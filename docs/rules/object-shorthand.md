@@ -7,9 +7,11 @@ since: v8.4.0
 ---
 # vue/object-shorthand
 
-> Require or disallow method and property shorthand syntax for object literals in `<template>`
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+<!-- end auto-generated rule header -->
+
+> Require or disallow method and property shorthand syntax for object literals in `<template>`
 
 This rule is the same rule as core [object-shorthand] rule but it applies to the expressions in `<template>`.
 

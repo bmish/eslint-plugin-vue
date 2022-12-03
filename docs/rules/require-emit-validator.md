@@ -7,9 +7,11 @@ since: v7.10.0
 ---
 # vue/require-emit-validator
 
-> require type definitions in emits
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> require type definitions in emits
 
 ## :book: Rule Details
 

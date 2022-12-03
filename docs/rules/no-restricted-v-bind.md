@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-restricted-v-bind
 
+<!-- end auto-generated rule header -->
+
 > disallow specific argument in `v-bind`
 
 ## :book: Rule Details

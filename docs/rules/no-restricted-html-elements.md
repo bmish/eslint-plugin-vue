@@ -7,6 +7,8 @@ since: v8.6.0
 ---
 # vue/no-restricted-html-elements
 
+<!-- end auto-generated rule header -->
+
 > disallow specific HTML elements
 
 ## :book: Rule Details

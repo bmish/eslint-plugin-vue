@@ -7,6 +7,8 @@ since: v7.9.0
 ---
 # vue/no-unused-refs
 
+<!-- end auto-generated rule header -->
+
 > disallow unused refs
 
 ## :book: Rule Details

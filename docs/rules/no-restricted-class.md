@@ -7,6 +7,8 @@ since: v7.19.0
 ---
 # vue/no-restricted-class
 
+<!-- end auto-generated rule header -->
+
 > disallow specific classes in Vue components
 
 ## :book: Rule Details

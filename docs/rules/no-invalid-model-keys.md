@@ -7,6 +7,10 @@ since: v7.9.0
 ---
 # vue/no-invalid-model-keys
 
+❌ This rule is deprecated. It was replaced by [`vue/valid-model-definition`](../../docs/rules/valid-model-definition.md).
+
+<!-- end auto-generated rule header -->
+
 > require valid keys in model option
 
 - :warning: This rule was **deprecated** and replaced by [vue/valid-model-definition](valid-model-definition.md) rule.

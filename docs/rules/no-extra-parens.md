@@ -7,15 +7,19 @@ since: v7.0.0
 ---
 # vue/no-extra-parens
 
-> Disallow unnecessary parentheses in `<template>`
+🚫 This rule is *disabled* in the `no-layout-rules` [config](https://eslint.vuejs.org/user-guide/#bundle-configurations).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> Disallow unnecessary parentheses in `<template>`
 
 This rule is the same rule as core [no-extra-parens] rule but it applies to the expressions in `<template>`.
 
 ## :book: Rule Details
 
-This rule restricts the use of parentheses to only where they are necessary.  
+This rule restricts the use of parentheses to only where they are necessary.
 This rule extends the core [no-extra-parens] rule and applies it to the `<template>`. This rule also checks some Vue.js syntax.
 
 <eslint-code-block fix :rules="{'vue/no-extra-parens': ['error']}">

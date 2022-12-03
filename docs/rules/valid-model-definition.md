@@ -7,9 +7,11 @@ since: v9.0.0
 ---
 # vue/valid-model-definition
 
-> require valid keys in model option
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `essential`, ✅ `recommended`, `strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/essential"`, `"plugin:vue/strongly-recommended"` and `"plugin:vue/recommended"`.
+<!-- end auto-generated rule header -->
+
+> require valid keys in model option
 
 ## :book: Rule Details
 

@@ -7,9 +7,11 @@ since: v7.16.0
 ---
 # vue/valid-v-memo
 
-> enforce valid `v-memo` directives
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/vue3-strongly-recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> enforce valid `v-memo` directives
 
 This rule checks whether every `v-memo` directive is valid.
 

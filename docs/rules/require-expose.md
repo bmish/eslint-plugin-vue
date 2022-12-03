@@ -7,9 +7,11 @@ since: v7.14.0
 ---
 # vue/require-expose
 
-> require declare public properties using `expose`
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-- :bulb: Some problems reported by this rule are manually fixable by editor [suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
+<!-- end auto-generated rule header -->
+
+> require declare public properties using `expose`
 
 ## :book: Rule Details
 

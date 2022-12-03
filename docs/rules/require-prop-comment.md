@@ -7,6 +7,8 @@ since: v9.8.0
 ---
 # vue/require-prop-comment
 
+<!-- end auto-generated rule header -->
+
 > require props to have a comment
 
 ## :book: Rule Details

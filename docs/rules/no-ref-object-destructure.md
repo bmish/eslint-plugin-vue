@@ -7,6 +7,8 @@ since: v9.5.0
 ---
 # vue/no-ref-object-destructure
 
+<!-- end auto-generated rule header -->
+
 > disallow destructuring of ref objects that can lead to loss of reactivity
 
 ## :book: Rule Details

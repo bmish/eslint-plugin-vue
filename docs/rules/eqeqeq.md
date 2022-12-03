@@ -7,9 +7,11 @@ since: v5.2.0
 ---
 # vue/eqeqeq
 
-> Require the use of `===` and `!==` in `<template>`
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
-- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
+<!-- end auto-generated rule header -->
+
+> Require the use of `===` and `!==` in `<template>`
 
 This rule is the same rule as core [eqeqeq] rule but it applies to the expressions in `<template>`.
 

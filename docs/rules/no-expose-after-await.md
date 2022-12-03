@@ -7,14 +7,16 @@ since: v8.1.0
 ---
 # vue/no-expose-after-await
 
-> disallow asynchronously registered `expose`
+💼 This rule is enabled in the following [configs](https://eslint.vuejs.org/user-guide/#bundle-configurations): `vue3-essential`, `vue3-recommended`, `vue3-strongly-recommended`.
 
-- :gear: This rule is included in all of `"plugin:vue/vue3-essential"`, `"plugin:vue/vue3-strongly-recommended"` and `"plugin:vue/vue3-recommended"`.
+<!-- end auto-generated rule header -->
+
+> disallow asynchronously registered `expose`
 
 ## :book: Rule Details
 
-This rule reports usages of `expose()` and `defineExpose()` after an `await` expression.  
-In the `setup()` function, `expose()` should be registered synchronously.  
+This rule reports usages of `expose()` and `defineExpose()` after an `await` expression.
+In the `setup()` function, `expose()` should be registered synchronously.
 In the `<script setup>`, `defineExpose()` should be registered synchronously.
 
 <eslint-code-block :rules="{'vue/no-expose-after-await': ['error']}">

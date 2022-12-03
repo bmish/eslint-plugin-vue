@@ -7,6 +7,8 @@ since: v7.0.0
 ---
 # vue/no-restricted-component-options
 
+<!-- end auto-generated rule header -->
+
 > disallow specific component option
 
 ## :book: Rule Details
